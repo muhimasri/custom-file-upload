@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <script src="./file-upload.js"></script>
+    <style>
+        file-upload::part(upload-button) {
+            border: none;
+            color: white;
+            padding: 9px 22px;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        .upload1::part(upload-button) {background-color: #4CAF50;} /* Green */
+        .upload2::part(upload-button) {background-color: #555555;} /* Black */
+    </style>
+    <body>
+        <file-upload upload-label="Browse..." class="upload1"></file-upload>
+        <file-upload upload-label="Upload Files" class="upload2"></file-upload>
+    </body>
+</html>
